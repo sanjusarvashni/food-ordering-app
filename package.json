@@ -2,12 +2,12 @@
   "name": "food-ordering-app",
   "version": "1.0.0",
   "description": "food ordering app",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
     "start": "parcel index.html",
-    "build":"parcel build index.html",
+    "build": "parcel build index.html",
     "test": "jest"
-   },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanjusarvashni/food-ordering-app.git"
@@ -26,6 +26,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
   }
 }
