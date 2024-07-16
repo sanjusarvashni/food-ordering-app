@@ -53,7 +53,7 @@ body{
     width: 250px;
     display: flex;
     flex-direction:column;
-    gap: 2rem;
+    gap: 1rem;
     padding: 2rem 2rem;
     box-shadow: 1px 1px 10px gray;
 }
@@ -75,4 +75,15 @@ body{
     box-shadow: 1px 1px 10px rgb(177, 177, 177);
     margin: 2rem auto;
     padding: 4rem 5rem;
+}
+
+.filter-btn{
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 1rem;
+    background-color: antiquewhite;
+
+}
+.filter-btn:hover{
+    cursor: pointer;
 }
